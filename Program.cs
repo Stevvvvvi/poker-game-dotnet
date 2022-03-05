@@ -13,8 +13,8 @@ foreach (string line in System.IO.File.ReadLines(path))
     HandCard FirstPlayer = new HandCard(firstPlayerHand);
     var secondPlayerHand = allCards.Skip(5).Take(5);
     HandCard SecondPlayer = new HandCard(secondPlayerHand);
-    Console.WriteLine("firstPlayerHand: "+String.Join(" ", firstPlayerHand));
-    Console.WriteLine("secondPlayerHand: "+ String.Join(" ", secondPlayerHand));
+    Console.WriteLine("firstPlayerHand: "+String.Join(" ", FirstPlayer.currentHand));
+    Console.WriteLine("secondPlayerHand: "+ String.Join(" ", SecondPlayer.currentHand));
     counter++;
 }  
   
