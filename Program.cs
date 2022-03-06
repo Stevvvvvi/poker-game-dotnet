@@ -69,3 +69,7 @@ System.Console.WriteLine("FirstPlayerWin: {0}", firstPlayerWinCount);
 System.Console.WriteLine("SecondPlayerWin: {0}", secondPlayerWinCount); 
 System.Console.WriteLine("2 players tie: {0}", tie); 
 System.Console.WriteLine("_________________________________"); 
+
+var outPutPath = Path.Combine(Directory.GetCurrentDirectory(), "outputResult.txt");
+var outPutLines = new List<string>(){$"Player 1: {firstPlayerWinCount} wins", $"Player 2: {secondPlayerWinCount} wins"};
+File.WriteAllLines(outPutPath, outPutLines);
