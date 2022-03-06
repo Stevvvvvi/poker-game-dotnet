@@ -1,5 +1,5 @@
 # This Project is Challenge exercise for Argenti
-### This is a Dotnet Core project using Dotnet 6, (without sln file, as my PC is Linux system)
+### This is a Dotnet Core Console application project using Dotnet 6, (without sln file, as my PC is Linux system)
 #### instruction to run:
 step 1: git clone or download the project. <br />
 step 2: make sure your local environment has Dotnet 6 SDK and Dotnet 6 runtime installed is installed from https://dotnet.microsoft.com/en-us/download <br />
